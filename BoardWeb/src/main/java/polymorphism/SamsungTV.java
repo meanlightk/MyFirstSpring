@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 @Component("tv")
 public class SamsungTV implements TV {
 	private Speaker speaker;
-	private int price;
+	//private int price;
 
 	public SamsungTV() {
 		System.out.println("===> SamsungTV(1) 객체 생성");
@@ -18,11 +18,11 @@ public class SamsungTV implements TV {
 
 	public void setPrice(int price) {
 		System.out.println("===> setPrice 호출");
-		this.price = price;
+		//this.price = price;
 	}
 
 	public void powerOn() {
-		System.out.println("SamsungTV---전원 켠다. (가격 : " + price + ")");
+		System.out.println("SamsungTV---전원 켠다.");
 
 	}
 

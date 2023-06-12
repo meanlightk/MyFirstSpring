@@ -6,6 +6,7 @@
 	<item key="Replace" value="false"/>
 	<item key="Comments" value="true"/>
 	<item key="InstanceOf" value="false"/>
+	<item key="org.eclipse.jdt.ui.lastextjar" value="C:\Users\503\.m2\repository\com\h2database\h2\2.1.212"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
 		<item key="layout" value="2"/>

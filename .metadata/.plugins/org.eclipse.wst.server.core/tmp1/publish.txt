@@ -1,3 +1,4 @@
 #Tomcat publish data
-#Fri Jun 09 15:39:18 KST 2023
-org.eclipse.jst.jee.server\:BoardWeb=C\:\\apache-tomcat-9_0_75-spring\\wtpwebapps\\BoardWeb
+#Tue Jun 13 15:41:34 KST 2023
+org.eclipse.jst.jee.server\:ex00=C\:\\apache-tomcat-9_0_75-spring\\wtpwebapps\\ex00
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\503\\.m2\\repository\\org\\springframework\\spring-web\\5.0.8.RELEASE\\spring-web-5.0.8.RELEASE.jar=C\:\\apache-tomcat-9_0_75-spring\\wtpwebapps\\ex00\\WEB-INF\\lib\\spring-web-5.0.8.RELEASE.jar

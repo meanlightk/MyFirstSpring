@@ -6,7 +6,6 @@
     <fullyQualifiedTypeName name="polymorphism.SamsungTV"/>
     <fullyQualifiedTypeName name="polymorphism.SonySpeaker"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
     <fullyQualifiedTypeName name="polymorphism.Speaker"/>
     <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
@@ -22,7 +21,6 @@
     <fullyQualifiedTypeName name="com.springbook.biz.board.JDBCUtile"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
     <fullyQualifiedTypeName name="com.springbook.biz.board.impl.BoardDAO"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="org.apache.catalina.core.ApplicationContext"/>
@@ -32,4 +30,10 @@
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.springbook.biz.board.BoardVO"/>
     <fullyQualifiedTypeName name="org.springframework.context.support.GenericXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="com.springbook.biz.common.LogAdvice"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.test.context.ContextConfiguration"/>
 </qualifiedTypeNameHistroy>

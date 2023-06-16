@@ -7,4 +7,5 @@
 </aspect-definition>
 </aop-project>
 <aop-project name="ex01"/>
+<aop-project name="ex00"/>
 </aop-reference-model>

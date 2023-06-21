@@ -22,6 +22,7 @@ public class BoardMapperTests {
 		mapper.getList().forEach(board -> log.info(board));
 	}
 
+	// CREATE
 	// insert만 처리되고 생성된 PK값을 알 필요가 없는 경우
 	@Test
 	public void testInsert() {
@@ -47,11 +48,18 @@ public class BoardMapperTests {
 		log.info("aftrer insert select" + board.getBno());
 	}
 
+	// READ
 	@Test
 	public void testRead() {
 		BoardVO board = mapper.read(5L);
 
 		log.info(board);
+	}
+
+	// DELETE
+	@Test
+	public void testDelete() {
+		log.info("DELETE COUNT: " + mapper.delete(3L));
 	}
 
 }

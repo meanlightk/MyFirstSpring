@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="log4j"/>
+		<item key="selection" value="Servlet"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="log4j"/>
 			<item value="servlet"/>
-			<item value="junit"/>
-			<item value="run"/>
-			<item value="mybatis"/>
-			<item value="h2"/>
-			<item value="oracle"/>
-			<item value="log4"/>
+			<item value="servlte"/>
+			<item value="lom"/>
+			<item value="my"/>
+			<item value="mvc"/>
+			<item value="javax"/>
+			<item value="exclu"/>
+			<item value="execute"/>
+			<item value="exe"/>
+			<item value="excute"/>
+			<item value="ex"/>
+			<item value="4.7"/>
+			<item value="log4j"/>
 			<item value="log"/>
-			<item value="weaver"/>
-			<item value="SonySpeaker"/>
-			<item value="8080"/>
-			<item value="1.6.10"/>
+			<item value="junit"/>
 		</list>
 		<list key="replacehistory">
 			<item value="AppleSpeaker"/>

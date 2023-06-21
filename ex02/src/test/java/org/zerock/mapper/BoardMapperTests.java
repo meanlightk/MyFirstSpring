@@ -36,7 +36,7 @@ public class BoardMapperTests {
 
 	// insert문이 실행되고 생성된 PK값을 알아야 하는 경우
 	@Test
-	public void insertSelectKey() {
+	public void testInsertSelectKey() {
 		BoardVO board = new BoardVO();
 		board.setTitle("새로 작성하는 글 select key");
 		board.setContent("새로 작성하는 내용 select key");
@@ -44,6 +44,5 @@ public class BoardMapperTests {
 
 		mapper.insertSelectKey(board);
 		log.info(board);
-
 	}
 }

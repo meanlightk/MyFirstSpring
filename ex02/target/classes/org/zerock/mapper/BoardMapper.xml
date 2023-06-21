@@ -37,7 +37,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		update tbl_board
 		set title = #{title},
 		content = #{content},
-		writer = #{writer},
+   <!-- writer = #{writer}, -->
 		updateDate = sysdate
 		where bno = #{bno}
 	</update>

@@ -22,8 +22,8 @@ public class BoardMapperTests {
 		mapper.getList().forEach(board -> log.info(board));
 	}
 
-	/* insert만 처리되고 생성된 PK값을 알 필요가 없는 경우
-	  @Test
+	// insert만 처리되고 생성된 PK값을 알 필요가 없는 경우
+	@Test
 	public void testInsert() {
 		BoardVO board = new BoardVO();
 		board.setTitle("새로 작성하는 글");
@@ -32,7 +32,7 @@ public class BoardMapperTests {
 
 		mapper.insert(board);
 		log.info(board);
-	*/
+	}
 
 	// insert문이 실행되고 생성된 PK값을 알아야 하는 경우
 	@Test
@@ -43,6 +43,15 @@ public class BoardMapperTests {
 		board.setWriter("newbie");
 
 		mapper.insertSelectKey(board);
+		log.info("---------------------------------------");
+		log.info("aftrer insert select" + board.getBno());
+	}
+
+	@Test
+	public void testRead() {
+		BoardVO board = mapper.read(5L);
+
 		log.info(board);
 	}
+
 }

@@ -7,7 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+<<<<<<< HEAD
 		
 </body>
 
 </html>
+=======
+	<h1>List Page</h1>
+	${list}
+</body>
+</html>
+>>>>>>> 6202592053341207c1b783d3583675df26a0aab7

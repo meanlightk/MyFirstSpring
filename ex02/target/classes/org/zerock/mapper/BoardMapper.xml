@@ -5,7 +5,24 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <mapper namespace="org.zerock.mapper.BoardMapper">
 
 	<select id="getList" resultType="org.zerock.domain.BoardVO">
-<![CDATA[select * from tbl_board where bno>0 ]]>
+		<![CDATA[select * from tbl_board where bno>0 ]]>
+	</select>
+
+	<select id="getListWithPaging"
+		resultType="org.zerock.domain.BoardVO">
+		<![CDATA[
+		select
+		 bno, title, content, writer, regdate, updatedate
+		from
+			(
+			select /*+INDEX_DESC(tbl_board pk_board) */
+				rownum rn, bno, title, content, writer, regdate, updatedate
+			from
+				tbl_board
+			where rownum <= #{pageNum} * #{amount}
+			)
+		where rn > (#{pageNum} -1) * #{amount}
+			]]>
 	</select>
 
 	<insert id="insert">
@@ -26,7 +43,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 
 	<select id="read" resultType="org.zerock.domain.BoardVO">
-		select * from tbl_board where bno =	#{bno}
+		select * from tbl_board where bno =
+		#{bno}
 	</select>
 
 	<delete id="delete">
@@ -37,7 +55,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		update tbl_board
 		set title = #{title},
 		content = #{content},
-   <!-- writer = #{writer}, -->
+		<!-- writer = #{writer}, -->
 		updateDate = sysdate
 		where bno = #{bno}
 	</update>

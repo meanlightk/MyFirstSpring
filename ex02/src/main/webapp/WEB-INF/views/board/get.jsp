@@ -38,9 +38,9 @@
 						readonly="readonly"><c:out value="${board.content}" /></textarea>
 				</div>
 
-				<div class="form-group">
+				<div class="from-group">
 					<label>Writer</label> <input class="form-control" name="writer"
-						value='<c:out value="${board.writer }"/>' readonly="readonly">
+						readonly="readonly" value='<c:out value="${board.writer}"/>'><br>
 				</div>
 
 				<button data-oper='modify' class='btn btn-default'>Modify</button>
@@ -48,7 +48,11 @@
 
 				<form id='operForm' action="/board/modify" method="get">
 					<input type='hidden' id='bno' name='bno'
-						value='<c:out value="${board.bno}"/>'>
+						value='<c:out value="${board.bno}"/>'> <input
+						type='hidden' name='pageNum'
+						value='<c:out value="${cri.pageNum}"/>'> <input
+						type='hidden' name='amount' value='<c:out value="${cri.amount}"/>'>
+
 				</form>
 			</div>
 			<!-- end panel-body -->

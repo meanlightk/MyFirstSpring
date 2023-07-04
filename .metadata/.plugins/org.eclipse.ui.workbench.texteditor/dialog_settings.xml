@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="form"/>
+		<item key="selection" value="Criteria"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="criteria"/>
 			<item value="form"/>
+			<item value="action"/>
+			<item value="searchForm"/>
+			<item value="move"/>
+			<item value="board.bno"/>
+			<item value="a=class"/>
+			<item value="a:class"/>
+			<item value="a href"/>
 			<item value="actionForm"/>
 			<item value="pull-right"/>
 			<item value="pull"/>
 			<item value="his"/>
 			<item value="regdate"/>
 			<item value="c:out"/>
-			<item value="c:oyt"/>
-			<item value="form-con"/>
-			<item value="board list"/>
-			<item value="jstl"/>
-			<item value="page-wrapper"/>
-			<item value="../"/>
-			<item value="includes"/>
-			<item value="googleapis"/>
 		</list>
 		<list key="replacehistory">
 			<item value="/resources/"/>
@@ -32,7 +32,7 @@
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="-40"/>
+		<item key="DIALOG_X_ORIGIN" value="11"/>
 		<item key="DIALOG_Y_ORIGIN" value="238"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>

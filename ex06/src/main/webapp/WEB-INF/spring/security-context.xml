@@ -31,9 +31,12 @@
 			ref="customAccessDenied" />
 
 		<!-- <security:form-login /> -->
-
 		<security:form-login login-page="/customLogin"
 			authentication-success-handler-ref="customLoginSuccess" />
+
+		<!-- <security:form-logout /> -->
+		<security:logout logout-url="/customLogout"
+			invalidate-session="true" />
 
 		<!-- <security:csrf disabled="true"/> -->
 
